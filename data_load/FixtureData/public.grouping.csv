@@ -1,0 +1,984 @@
+id,name,sector_id,geography_id,esg_factor_id,analysis
+0,Portfolio Level,,,,
+1,ESG_Score_Bucket_1,,,6,bucket
+2,ESG_Score_Bucket_2,,,6,bucket
+3,ESG_Score_Bucket_3,,,6,bucket
+4,ESG_Score_Bucket_4,,,6,bucket
+5,ESG_Score_Bucket_5,,,6,bucket
+6,ESG_Score_Bucket_6,,,6,bucket
+7,ESG_Score_Bucket_7,,,6,bucket
+8,ESG_Score_Bucket_8,,,6,bucket
+9,ESG_Score_Bucket_9,,,6,bucket
+10,ESG_Score_Bucket_10,,,6,bucket
+11,ESG_Score_Bucket_unclassified,,,6,bucket
+12,E_Score_Bucket_1,,,7,bucket
+13,E_Score_Bucket_2,,,7,bucket
+14,E_Score_Bucket_3,,,7,bucket
+15,E_Score_Bucket_4,,,7,bucket
+16,E_Score_Bucket_5,,,7,bucket
+17,E_Score_Bucket_6,,,7,bucket
+18,E_Score_Bucket_7,,,7,bucket
+19,E_Score_Bucket_8,,,7,bucket
+20,E_Score_Bucket_9,,,7,bucket
+21,E_Score_Bucket_10,,,7,bucket
+22,E_Score_Bucket_unclassified,,,7,bucket
+23,S_Score_Bucket_1,,,8,bucket
+24,S_Score_Bucket_2,,,8,bucket
+25,S_Score_Bucket_3,,,8,bucket
+26,S_Score_Bucket_4,,,8,bucket
+27,S_Score_Bucket_5,,,8,bucket
+28,S_Score_Bucket_6,,,8,bucket
+29,S_Score_Bucket_7,,,8,bucket
+30,S_Score_Bucket_8,,,8,bucket
+31,S_Score_Bucket_9,,,8,bucket
+32,S_Score_Bucket_10,,,8,bucket
+33,S_Score_Bucket_unclassified,,,8,bucket
+34,G_Score_Bucket_1,,,9,bucket
+35,G_Score_Bucket_2,,,9,bucket
+36,G_Score_Bucket_3,,,9,bucket
+37,G_Score_Bucket_4,,,9,bucket
+38,G_Score_Bucket_5,,,9,bucket
+39,G_Score_Bucket_6,,,9,bucket
+40,G_Score_Bucket_7,,,9,bucket
+41,G_Score_Bucket_8,,,9,bucket
+42,G_Score_Bucket_9,,,9,bucket
+43,G_Score_Bucket_10,,,9,bucket
+44,G_Score_Bucket_unclassified,,,9,bucket
+45,UNGC_Score_Bucket_1,,,1,bucket
+46,UNGC_Score_Bucket_2,,,1,bucket
+47,UNGC_Score_Bucket_3,,,1,bucket
+48,UNGC_Score_Bucket_4,,,1,bucket
+49,UNGC_Score_Bucket_5,,,1,bucket
+50,UNGC_Score_Bucket_6,,,1,bucket
+51,UNGC_Score_Bucket_7,,,1,bucket
+52,UNGC_Score_Bucket_8,,,1,bucket
+53,UNGC_Score_Bucket_9,,,1,bucket
+54,UNGC_Score_Bucket_10,,,1,bucket
+55,UNGC_Score_Bucket_unclassified,,,1,bucket
+56,UNGC_HUMAN_RIGHTS_Bucket_1,,,2,bucket
+57,UNGC_HUMAN_RIGHTS_Bucket_2,,,2,bucket
+58,UNGC_HUMAN_RIGHTS_Bucket_3,,,2,bucket
+59,UNGC_HUMAN_RIGHTS_Bucket_4,,,2,bucket
+60,UNGC_HUMAN_RIGHTS_Bucket_5,,,2,bucket
+61,UNGC_HUMAN_RIGHTS_Bucket_6,,,2,bucket
+62,UNGC_HUMAN_RIGHTS_Bucket_7,,,2,bucket
+63,UNGC_HUMAN_RIGHTS_Bucket_8,,,2,bucket
+64,UNGC_HUMAN_RIGHTS_Bucket_9,,,2,bucket
+65,UNGC_HUMAN_RIGHTS_Bucket_10,,,2,bucket
+66,UNGC_HUMAN_RIGHTS_Bucket_unclassified,,,2,bucket
+67,UNGC_LABOUR_RIGHTS_Bucket_1,,,3,bucket
+68,UNGC_LABOUR_RIGHTS_Bucket_2,,,3,bucket
+69,UNGC_LABOUR_RIGHTS_Bucket_3,,,3,bucket
+70,UNGC_LABOUR_RIGHTS_Bucket_4,,,3,bucket
+71,UNGC_LABOUR_RIGHTS_Bucket_5,,,3,bucket
+72,UNGC_LABOUR_RIGHTS_Bucket_6,,,3,bucket
+73,UNGC_LABOUR_RIGHTS_Bucket_7,,,3,bucket
+74,UNGC_LABOUR_RIGHTS_Bucket_8,,,3,bucket
+75,UNGC_LABOUR_RIGHTS_Bucket_9,,,3,bucket
+76,UNGC_LABOUR_RIGHTS_Bucket_10,,,3,bucket
+77,UNGC_LABOUR_RIGHTS_Bucket_unclassified,,,3,bucket
+78,UNGC_ENVIRONMENT_Bucket_1,,,4,bucket
+79,UNGC_ENVIRONMENT_Bucket_2,,,4,bucket
+80,UNGC_ENVIRONMENT_Bucket_3,,,4,bucket
+81,UNGC_ENVIRONMENT_Bucket_4,,,4,bucket
+82,UNGC_ENVIRONMENT_Bucket_5,,,4,bucket
+83,UNGC_ENVIRONMENT_Bucket_6,,,4,bucket
+84,UNGC_ENVIRONMENT_Bucket_7,,,4,bucket
+85,UNGC_ENVIRONMENT_Bucket_8,,,4,bucket
+86,UNGC_ENVIRONMENT_Bucket_9,,,4,bucket
+87,UNGC_ENVIRONMENT_Bucket_10,,,4,bucket
+88,UNGC_ENVIRONMENT_Bucket_unclassified,,,4,bucket
+89,UNGC_ANTI_CORRUPTION__Bucket_1,,,5,bucket
+90,UNGC_ANTI_CORRUPTION__Bucket_2,,,5,bucket
+91,UNGC_ANTI_CORRUPTION__Bucket_3,,,5,bucket
+92,UNGC_ANTI_CORRUPTION__Bucket_4,,,5,bucket
+93,UNGC_ANTI_CORRUPTION__Bucket_5,,,5,bucket
+94,UNGC_ANTI_CORRUPTION__Bucket_6,,,5,bucket
+95,UNGC_ANTI_CORRUPTION__Bucket_7,,,5,bucket
+96,UNGC_ANTI_CORRUPTION__Bucket_8,,,5,bucket
+97,UNGC_ANTI_CORRUPTION__Bucket_9,,,5,bucket
+98,UNGC_ANTI_CORRUPTION__Bucket_10,,,5,bucket
+99,UNGC_ANTI_CORRUPTION__Bucket_unclassified,,,5,bucket
+100,Asia Pacific Developed,,10,,
+101,Asia Pacific Emerging,,20,,
+102,Europe Developed,,30,,
+103,Europe Emerging,,40,,
+104,Latin America and Carribean,,50,,
+105,Middle East,,60,,
+106,Sub Saharan Africa,,70,,
+107,United States and Canada,,80,,
+108,Australia,,1001,,
+109,Hong Kong,,1002,,
+110,Japan,,1003,,
+111,Macau,,1004,,
+112,New Zealand,,1005,,
+113,Singapore,,1006,,
+114,South Korea,,1007,,
+115,Taiwan,,1008,,
+117,Afghanistan,,1010,,
+118,American Samoa,,1011,,
+119,Armenia,,1012,,
+120,Azerbaijan,,1013,,
+121,Bangladesh,,1014,,
+122,Bhutan,,1015,,
+123,British Indian Ocean Territory,,1016,,
+124,Brunei,,1017,,
+125,Cambodia,,1018,,
+126,China,,1019,,
+127,Christmas Island,,1020,,
+128,Cocos Islands,,1021,,
+129,Cook Islands,,1022,,
+130,East Timor,,1023,,
+131,Fiji,,1024,,
+132,French Polynesia,,1025,,
+133,Georgia,,1026,,
+134,Guam,,1027,,
+135,India,,1028,,
+136,Indonesia,,1029,,
+137,Kazakhstan,,1030,,
+138,Kiribati,,1031,,
+139,Kyrgyzstan,,1032,,
+140,Laos,,1033,,
+141,Malaysia,,1034,,
+142,Maldives,,1035,,
+143,Marshall Islands,,1036,,
+144,Micronesia,,1037,,
+145,Mongolia,,1038,,
+146,Myanmar,,1039,,
+147,Nauru,,1040,,
+148,Nepal,,1041,,
+149,New Caledonia,,1042,,
+150,Niue,,1043,,
+151,Norfolk Island,,1044,,
+152,North Korea,,1045,,
+153,Northern Mariana Islands,,1046,,
+154,Oman,,1047,,
+155,Pakistan,,1048,,
+156,Palau,,1049,,
+157,Papua New Guinea,,1050,,
+158,Philippines,,1051,,
+159,Pitcairn Islands,,1052,,
+160,Qatar,,1053,,
+161,Samoa,,1054,,
+162,Solomon Islands,,1055,,
+163,Sri Lanka,,1056,,
+164,Tajikistan,,1057,,
+165,Thailand,,1058,,
+166,Tokelau,,1059,,
+167,Tonga,,1060,,
+168,Turkmenistan,,1061,,
+169,Tuvalu,,1062,,
+170,Uzbekistan,,1063,,
+171,Vanuatu,,1064,,
+172,Vietnam,,1065,,
+173,Wallis and Futuna,,1066,,
+175,Aland Islands,,1068,,
+176,Austria,,1069,,
+177,Belgium,,1070,,
+178,Denmark,,1071,,
+179,Finland,,1072,,
+180,France,,1073,,
+181,Germany,,1074,,
+182,Gibraltar,,1075,,
+183,Greece,,1076,,
+184,Greenland,,1077,,
+185,Guernsey,,1078,,
+186,Iceland,,1079,,
+187,Ireland,,1080,,
+188,Isle of Man,,1081,,
+189,Israel,,1082,,
+190,Italy,,1083,,
+191,Jersey,,1084,,
+192,Liechtenstein,,1085,,
+193,Luxembourg,,1086,,
+194,Malta,,1087,,
+195,Monaco,,1088,,
+196,Netherlands,,1089,,
+197,Norway,,1090,,
+198,Poland,,1091,,
+199,Portugal,,1092,,
+200,Romania,,1093,,
+201,San Marino,,1094,,
+202,Spain,,1095,,
+203,Svalbard,,1096,,
+204,Sweden,,1097,,
+205,Switzerland,,1098,,
+206,United Kingdom,,1099,,
+207,Vatican City,,1100,,
+209,Albania,,1102,,
+210,Andorra,,1103,,
+211,Belarus,,1104,,
+212,Bosnia and Herzegovina,,1105,,
+213,Bulgaria,,1106,,
+214,Croatia,,1107,,
+215,Czech Republic,,1108,,
+216,Estonia,,1109,,
+217,Faroe Islands,,1110,,
+218,Hungary,,1111,,
+219,Latvia,,1112,,
+220,Lithuania,,1113,,
+221,Macedonia,,1114,,
+222,Moldova,,1115,,
+223,Montenegro,,1116,,
+224,Russia,,1117,,
+225,Serbia,,1118,,
+226,Slovakia,,1119,,
+227,Slovenia,,1120,,
+228,Ukraine,,1121,,
+230,Anguilla,,1123,,
+231,Antigua and Barbuda,,1124,,
+232,Argentina,,1125,,
+233,Aruba,,1126,,
+234,Bahamas,,1127,,
+235,Barbados,,1128,,
+236,Belize,,1129,,
+237,Bermuda,,1130,,
+238,Bolivia,,1131,,
+239,Brazil,,1132,,
+240,British Virgin Islands,,1133,,
+241,Cayman Islands,,1134,,
+242,Chile,,1135,,
+243,Colombia,,1136,,
+244,Costa Rica,,1137,,
+245,Cuba,,1138,,
+246,Curacao,,1139,,
+247,Dominica,,1140,,
+248,Dominican Republic,,1141,,
+249,Ecuador,,1142,,
+250,El Salvador,,1143,,
+251,French Guiana,,1144,,
+252,Grenada,,1145,,
+253,Guadeloupe,,1146,,
+254,Guatemala,,1147,,
+255,Guyana,,1148,,
+256,Haiti,,1149,,
+257,Honduras,,1150,,
+258,Jamaica,,1151,,
+259,Martinique,,1152,,
+260,Mexico,,1153,,
+261,Montserrat,,1154,,
+262,Nicaragua,,1155,,
+263,Panama,,1156,,
+264,Paraguay,,1157,,
+265,Peru,,1158,,
+266,Puerto Rico,,1159,,
+267,Saint Kitts and Nevis,,1160,,
+268,Saint Lucia,,1161,,
+269,Saint Martin,,1162,,
+271,Saint Pierre and Miquelon,,1164,,
+272,Saint Vincent and the Grenadines,,1165,,
+273,South Georgia and the South Sandwich Islands,,1166,,
+274,Suriname,,1167,,
+275,Trinidad and Tobago,,1168,,
+276,Turks and Caicos Islands,,1169,,
+277,United States Virgin Islands,,1170,,
+278,Uruguay,,1171,,
+279,Venezuela,,1172,,
+281,Algeria,,1174,,
+282,Bahrain,,1175,,
+283,Cyprus,,1176,,
+284,Egypt,,1177,,
+285,Iran,,1178,,
+286,Iraq,,1179,,
+287,Jordan,,1180,,
+288,Kuwait,,1181,,
+289,Lebanon,,1182,,
+290,Libya,,1183,,
+291,Morocco,,1184,,
+292,Palestine,,1185,,
+293,Saudi Arabia,,1186,,
+294,Syria,,1187,,
+295,Tunisia,,1188,,
+296,Turkey,,1189,,
+297,United Arab Emirates,,1190,,
+298,Western Sahara,,1191,,
+299,Yemen,,1192,,
+301,Angola,,1194,,
+302,Benin,,1195,,
+303,Botswana,,1196,,
+304,Burkina Faso,,1197,,
+305,Burundi,,1198,,
+306,Cameroon,,1199,,
+307,Cape Verde,,1200,,
+308,Central African Republic,,1201,,
+309,Chad,,1202,,
+310,Comoros,,1203,,
+311,Congo (Democratic Republic),,1204,,
+312,Congo (Republic),,1205,,
+313,Djibouti,,1206,,
+314,Equatorial Guinea,,1207,,
+315,Eritrea,,1208,,
+316,Ethiopia,,1209,,
+317,Gabon,,1210,,
+318,Gambia,,1211,,
+319,Ghana,,1212,,
+320,Guinea,,1213,,
+321,Guinea-Bissau,,1214,,
+322,Ivory Coast,,1215,,
+323,Kenya,,1216,,
+324,Lesotho,,1217,,
+325,Liberia,,1218,,
+326,Madagascar,,1219,,
+327,Malawi,,1220,,
+328,Mali,,1221,,
+329,Mauritania,,1222,,
+330,Mauritius,,1223,,
+331,Mayotte,,1224,,
+332,Mozambique,,1225,,
+333,Namibia,,1226,,
+334,Niger,,1227,,
+335,Nigeria,,1228,,
+336,Reunion,,1229,,
+337,Rwanda,,1230,,
+338,"Saint Helena, Ascension and Tristan da Cunha",,1231,,
+339,Sao Tome and Principe,,1232,,
+340,Senegal,,1233,,
+341,Seychelles,,1234,,
+342,Sierra Leone,,1235,,
+343,Somalia,,1236,,
+344,South Africa,,1237,,
+345,South Sudan,,1238,,
+346,Sudan,,1239,,
+347,Swaziland,,1240,,
+348,Tanzania,,1241,,
+349,Togo,,1242,,
+350,Uganda,,1243,,
+351,Zambia,,1244,,
+352,Zimbabwe,,1245,,
+354,Canada,,1247,,
+355,United States,,1248,,
+357,Energy,10,,,
+358,Materials,15,,,
+359,Industrials,20,,,
+360,Consumer Discretionary,25,,,
+361,Consumer Staples,30,,,
+362,Health Care,35,,,
+363,Financials,40,,,
+364,Information Technology,45,,,
+365,Telecommunication Services,50,,,
+366,Utilities,55,,,
+367,Real Estate,60,,,
+368,Energy,1010,,,
+370,Materials,1510,,,
+372,Capital Goods,2010,,,
+373,Commercial & Professional Services,2020,,,
+374,Transportation,2030,,,
+376,Automobiles & Components,2510,,,
+377,Consumer Durables & Apparel,2520,,,
+378,Consumer Services,2530,,,
+379,Media,2540,,,
+380,Retailing,2550,,,
+382,Food & Staples Retailing,3010,,,
+383,Food Beverage & Tobacco,3020,,,
+384,Household & Personal Products,3030,,,
+386,Health Care Equipment & Services,3510,,,
+387,"Pharmaceuticals, Biotechnology",3520,,,
+389,Banks,4010,,,
+390,Diversified Financials,4020,,,
+391,Insurance,4030,,,
+392,Real Estate,6010,,,
+394,Software & Services,4510,,,
+395,Technology Hardware & Equipmen,4520,,,
+396,Semiconductors & Semiconductor,4530,,,
+398,Telecommunication Services,5010,,,
+400,Utilities,5510,,,
+404,Asia Pacific Developed cross Energy,10,10,,
+405,Asia Pacific Developed cross Materials,15,10,,
+406,Asia Pacific Developed cross Industrials,20,10,,
+407,Asia Pacific Developedcross Consumer Discretionary,25,10,,
+408,Asia Pacific Developed cross Consumer Staples,30,10,,
+409,Asia Pacific Developed cross Health Care,35,10,,
+410,Asia Pacific Developed cross Financials,40,10,,
+411,Asia Pacific Developed cross Information Technology,45,10,,
+412,Asia Pacific Developed cross Telecommunication Services,50,10,,
+413,Asia Pacific Developed cross Utilities,55,10,,
+414,Asia Pacific Developed cross Real Estate,60,10,,
+415,Asia Pacific Emerging cross Energy,10,20,,
+416,Asia Pacific Emerging cross Materials,15,20,,
+417,Asia Pacific Emerging cross Industrials,20,20,,
+418,Asia Pacific Emerging cross Consumer Discretionary,25,20,,
+419,Asia Pacific Emerging cross Consumer Staples,30,20,,
+420,Asia Pacific Emerging cross Health Care,35,20,,
+421,Asia Pacific Emerging cross Financials,40,20,,
+422,Asia Pacific Emerging cross Information Technology,45,20,,
+423,Asia Pacific Emerging cross Telecommunication Services,50,20,,
+424,Asia Pacific Emerging cross Utilities,55,20,,
+425,Asia Pacific Emerging cross Real Estate,60,20,,
+426,Europe Developed cross Energy,10,30,,
+427,Europe Developed cross Materials,15,30,,
+428,Europe Developed cross Industrials,20,30,,
+429,Europe Developed cross Consumer Discretionary,25,30,,
+430,Europe Developed cross Consumer Staples,30,30,,
+431,Europe Developed cross Health Care,35,30,,
+432,Europe Developed cross Financials,40,30,,
+433,Europe Developed cross Information Technology,45,30,,
+434,Europe Developed cross Telecommunication Services,50,30,,
+435,Europe Developed cross Utilities,55,30,,
+436,Europe Developed cross Real Estate,60,30,,
+437,Europe Emerging cross Energy,10,40,,
+438,Europe Emerging cross Materials,15,40,,
+439,Europe Emerging cross Industrials,20,40,,
+440,Europe Emerging cross Consumer Discretionary,25,40,,
+441,Europe Emerging cross Consumer Staples,30,40,,
+442,Europe Emerging cross Health Care,35,40,,
+443,Europe Emerging cross Financials,40,40,,
+444,Europe Emerging cross Information Technology,45,40,,
+445,Europe Emerging cross Telecommunication Services,50,40,,
+446,Europe Emerging cross Utilities,55,40,,
+447,Europe Emerging cross Real Estate,60,40,,
+448,Latin America and carribean cross Energy,10,50,,
+449,Latin America and Carribean cross Materials,15,50,,
+450,Latin America and Carribean cross Industrials,20,50,,
+451,Latin America and Carribean cross Consumer Discretionary,25,50,,
+452,Latin America and Carribean cross Consumer Staples,30,50,,
+453,Latin America and Carribean cross Health Care,35,50,,
+454,Latin America and Carribean cross Financials,40,50,,
+455,Latin America and Carribean cross Information Technology,45,50,,
+456,Latin America and Carribean cross Telecommunication Services,50,50,,
+457,Latin America and Carribean corss Utilities,55,50,,
+458,Latin America and Carribean cross Real Estate,60,50,,
+459,Middle East cross Energy,10,60,,
+460,Middle East cross Materials,15,60,,
+461,Middle East cross Industrials,20,60,,
+462,Middle East cross Consumer Discretionary,25,60,,
+463,Middle East cross Consumer Staples,30,60,,
+464,Middle East cross Health Care,35,60,,
+465,Middle East cross Financials,40,60,,
+466,Middle East cross Information Technology,45,60,,
+467,Middle East cross Telecommunication Services,50,60,,
+468,Middle East cross Utilities,55,60,,
+469,Middle East cross Real Estate,60,60,,
+470,Sub Saharan Africa cross Energy,10,70,,
+471,Sub Saharan Africa cross Materials,15,70,,
+472,Sub Saharan Africa cross Industrials,20,70,,
+473,Sub Saharan Africa cross Consumer Discretionary,25,70,,
+474,Sub Saharan Africa cross Consumer Staples,30,70,,
+475,Sub Saharan Africa cross Health Care,35,70,,
+476,Sub Saharan Africa cross Financials,40,70,,
+477,Sub Saharan Africa cross Information Technology,45,70,,
+478,Sub Saharan Africa cross Telecommunication Services,50,70,,
+479,Sub Saharan Africa cross Utilities,55,70,,
+480,Sub Saharan Africa cross Real Estate,60,70,,
+481,United States and Canada cross Energy,10,80,,
+482,United States and Canada cross Materials,15,80,,
+483,United States and Canada cross Industrials,20,80,,
+484,United States and Canada cross Consumer Discretionary,25,80,,
+485,United States and Canada cross Consumer Staples,30,80,,
+486,United States and Canada cross Health Care,35,80,,
+487,United States and Canada cross Financials,40,80,,
+488,United States and Canada cross Information Technology,45,80,,
+489,United States and Canada cross Telecommunication Services,50,80,,
+490,United States and Canada cross Utilities,55,80,,
+491,United States and Canada cross Real Estate,60,80,,
+492,top 1/3 by UNGC_COMPOSITE,,,1,top
+493,middle 1/3 by UNGC_COMPOSITE,,,1,middle
+494,lowest 1/3 by UNGC_COMPOSITE,,,1,lowest
+495,"long top 1/3, short bottom 1/3 by UNGC_COMPOSITE",,,1,long_short
+496,top 1/3 by UNGC_HUMAN_RIGHTS,,,2,top
+497,middle 1/3 by UNGC_HUMAN_RIGHTS,,,2,middle
+498,lowest 1/3 by UNGC_HUMAN_RIGHTS,,,2,lowest
+499,"long top 1/3, short bottom 1/3 by UNGC_HUMAN_RIGHTS",,,2,long_short
+500,top 1/3 by UNGC_LABOUR_RIGHTS,,,3,top
+501,middle 1/3 by UNGC_LABOUR_RIGHTS,,,3,middle
+502,lowest 1/3 by UNGC_LABOUR_RIGHTS,,,3,lowest
+503,"long top 1/3, short bottom 1/3 by UNGC_LABOUR_RIGHTS",,,3,long_short
+504,top 1/3 by UNGC_ENVIRONMENT,,,4,top
+505,middle 1/3 by UNGC_ENVIRONMENT,,,4,middle
+506,lowest 1/3 by UNGC_ENVIRONMENT,,,4,lowest
+507,"long top 1/3, short bottom 1/3 by UNGC_ENVIRONMENT",,,4,long_short
+508,top 1/3 by UNGC_ANTI-CORRUPTION,,,5,top
+509,middle 1/3 by UNGC_ANTI-CORRUPTION,,,5,middle
+510,lowest 1/3 by UNGC_ANTI-CORRUPTION,,,5,lowest
+511,"long top 1/3, short bottom 1/3 by UNGC_ANTI-CORRUPTION",,,5,long_short
+512,top 1/3 by ARABESQUE_ESG_COMPOSITE,,,6,top
+513,middle 1/3 by ARABESQUE_ESG_COMPOSITE,,,6,middle
+514,lowest 1/3 by ARABESQUE_ESG_COMPOSITE,,,6,lowest
+515,"long top 1/3, short bottom 1/3 by ARABESQUE_ESG_COMPOSITE",,,6,long_short
+516,top 1/3 by ARABESQUE_ENVIRONMENT,,,7,top
+517,middle 1/3 by ARABESQUE_ENVIRONMENT,,,7,middle
+518,lowest 1/3 by ARABESQUE_ENVIRONMENT,,,7,lowest
+519,"long top 1/3, short bottom 1/3 by ARABESQUE_ENVIRONMENT",,,7,long_short
+520,top 1/3 by ARABESQUE_SOCIAL,,,8,top
+521,middle 1/3 by ARABESQUE_SOCIAL,,,8,middle
+522,lowest 1/3 by ARABESQUE_SOCIAL,,,8,lowest
+523,"long top 1/3, short bottom 1/3 by ARABESQUE_SOCIAL",,,8,long_short
+524,top 1/3 by ARABESQUE_GOVERNANCE,,,9,top
+525,middle 1/3 by ARABESQUE_GOVERNANCE,,,9,middle
+526,lowest 1/3 by ARABESQUE_GOVERNANCE,,,9,lowest
+527,"long top 1/3, short bottom 1/3 by ARABESQUE_GOVERNANCE",,,9,long_short
+999910,Unclassified region,,999910,,
+999911,Unclassified sector,999911,,,
+999912,Unclassified region_Energy,10,999910,,
+999913,Unclassified region_Materials,15,999910,,
+999914,Unclassified region_Industrials,20,999910,,
+999915,Unclassified region_Consumer Discretionary,25,999910,,
+999916,Unclassified region_Consumer Staples,30,999910,,
+999917,Unclassified region_Health Care,35,999910,,
+999918,Unclassified region_Financials,40,999910,,
+999919,Unclassified region_Information Technology,45,999910,,
+999920,Unclassified region_Telecommunication Services,50,999910,,
+999921,Unclassified region_Utilities,55,999910,,
+999922,Unclassified region_Real Estate,60,999910,,
+999923,Unclassified sector_Asia Pacific Developed,999911,10,,
+999924,Unclassified sector_Asia Pacific Emerging,999911,20,,
+999925,Unclassified sector_Europe Developed,999911,30,,
+999926,Unclassified sector_Europe Emerging,999911,40,,
+999927,Unclassified sector_Latin America and Carribean,999911,50,,
+999928,Unclassified sector_Middle East,999911,60,,
+999929,Unclassified sector_Sub Saharan Africa,999911,70,,
+999930,Unclassified sector_United States and Canada,999911,80,,
+528,Insight Human Capital_Score_Bucket_1,,,,bucket
+529,Insight Human Capital_Score_Bucket_2,,,,bucket
+530,Insight Human Capital_Score_Bucket_3,,,,bucket
+531,Insight Human Capital_Score_Bucket_4,,,,bucket
+532,Insight Human Capital_Score_Bucket_5,,,,bucket
+533,Insight Human Capital_Score_Bucket_6,,,,bucket
+534,Insight Human Capital_Score_Bucket_7,,,,bucket
+535,Insight Human Capital_Score_Bucket_8,,,,bucket
+536,Insight Human Capital_Score_Bucket_9,,,,bucket
+537,Insight Human Capital_Score_Bucket_10,,,,bucket
+538,Insight Human Capital_Score_Bucket_unclassified,,,,bucket
+539,Insight Supply Chain_Score_Bucket_1,,,,bucket
+540,Insight Supply Chain_Score_Bucket_2,,,,bucket
+541,Insight Supply Chain_Score_Bucket_3,,,,bucket
+542,Insight Supply Chain_Score_Bucket_4,,,,bucket
+543,Insight Supply Chain_Score_Bucket_5,,,,bucket
+544,Insight Supply Chain_Score_Bucket_6,,,,bucket
+545,Insight Supply Chain_Score_Bucket_7,,,,bucket
+546,Insight Supply Chain_Score_Bucket_8,,,,bucket
+547,Insight Supply Chain_Score_Bucket_9,,,,bucket
+548,Insight Supply Chain_Score_Bucket_10,,,,bucket
+549,Insight Supply Chain_Score_Bucket_unclassified,,,,bucket
+550,Insight Environment Water_Score_Bucket_1,,,,bucket
+551,Insight Environment Water_Score_Bucket_2,,,,bucket
+552,Insight Environment Water_Score_Bucket_3,,,,bucket
+553,Insight Environment Water_Score_Bucket_4,,,,bucket
+554,Insight Environment Water_Score_Bucket_5,,,,bucket
+555,Insight Environment Water_Score_Bucket_6,,,,bucket
+556,Insight Environment Water_Score_Bucket_7,,,,bucket
+557,Insight Environment Water_Score_Bucket_8,,,,bucket
+558,Insight Environment Water_Score_Bucket_9,,,,bucket
+559,Insight Environment Water_Score_Bucket_10,,,,bucket
+560,Insight Environment Water_Score_Bucket_unclassified,,,,bucket
+561,Insight Environment Atmosphere_Score_Bucket_1,,,,bucket
+562,Insight Environment Atmosphere_Score_Bucket_2,,,,bucket
+563,Insight Environment Atmosphere_Score_Bucket_3,,,,bucket
+564,Insight Environment Atmosphere_Score_Bucket_4,,,,bucket
+565,Insight Environment Atmosphere_Score_Bucket_5,,,,bucket
+566,Insight Environment Atmosphere_Score_Bucket_6,,,,bucket
+567,Insight Environment Atmosphere_Score_Bucket_7,,,,bucket
+568,Insight Environment Atmosphere_Score_Bucket_8,,,,bucket
+569,Insight Environment Atmosphere_Score_Bucket_9,,,,bucket
+570,Insight Environment Atmosphere_Score_Bucket_10,,,,bucket
+571,Insight Environment Atmosphere_Score_Bucket_unclassified,,,,bucket
+572,Insight Marketing Practices_Score_Bucket_1,,,,bucket
+573,Insight Marketing Practices_Score_Bucket_2,,,,bucket
+574,Insight Marketing Practices_Score_Bucket_3,,,,bucket
+575,Insight Marketing Practices_Score_Bucket_4,,,,bucket
+576,Insight Marketing Practices_Score_Bucket_5,,,,bucket
+577,Insight Marketing Practices_Score_Bucket_6,,,,bucket
+578,Insight Marketing Practices_Score_Bucket_7,,,,bucket
+579,Insight Marketing Practices_Score_Bucket_8,,,,bucket
+580,Insight Marketing Practices_Score_Bucket_9,,,,bucket
+581,Insight Marketing Practices_Score_Bucket_10,,,,bucket
+582,Insight Marketing Practices_Score_Bucket_unclassified,,,,bucket
+583,Insight Sustainable Energy Use And Production_Score_Bucket_1,,,,bucket
+584,Insight Sustainable Energy Use And Production_Score_Bucket_2,,,,bucket
+585,Insight Sustainable Energy Use And Production_Score_Bucket_3,,,,bucket
+586,Insight Sustainable Energy Use And Production_Score_Bucket_4,,,,bucket
+587,Insight Sustainable Energy Use And Production_Score_Bucket_5,,,,bucket
+588,Insight Sustainable Energy Use And Production_Score_Bucket_6,,,,bucket
+589,Insight Sustainable Energy Use And Production_Score_Bucket_7,,,,bucket
+590,Insight Sustainable Energy Use And Production_Score_Bucket_8,,,,bucket
+591,Insight Sustainable Energy Use And Production_Score_Bucket_9,,,,bucket
+592,Insight Sustainable Energy Use And Production_Score_Bucket_10,,,,bucket
+593,Insight Sustainable Energy Use And Production_Score_Bucket_unclassified,,,,bucket
+594,Insight Data Security And Privacy_Score_Bucket_1,,,,bucket
+595,Insight Data Security And Privacy_Score_Bucket_2,,,,bucket
+596,Insight Data Security And Privacy_Score_Bucket_3,,,,bucket
+597,Insight Data Security And Privacy_Score_Bucket_4,,,,bucket
+598,Insight Data Security And Privacy_Score_Bucket_5,,,,bucket
+599,Insight Data Security And Privacy_Score_Bucket_6,,,,bucket
+600,Insight Data Security And Privacy_Score_Bucket_7,,,,bucket
+601,Insight Data Security And Privacy_Score_Bucket_8,,,,bucket
+602,Insight Data Security And Privacy_Score_Bucket_9,,,,bucket
+603,Insight Data Security And Privacy_Score_Bucket_10,,,,bucket
+604,Insight Data Security And Privacy_Score_Bucket_unclassified,,,,bucket
+605,Insight Environment Land_Score_Bucket_1,,,,bucket
+606,Insight Environment Land_Score_Bucket_2,,,,bucket
+607,Insight Environment Land_Score_Bucket_3,,,,bucket
+608,Insight Environment Land_Score_Bucket_4,,,,bucket
+609,Insight Environment Land_Score_Bucket_5,,,,bucket
+610,Insight Environment Land_Score_Bucket_6,,,,bucket
+611,Insight Environment Land_Score_Bucket_7,,,,bucket
+612,Insight Environment Land_Score_Bucket_8,,,,bucket
+613,Insight Environment Land_Score_Bucket_9,,,,bucket
+614,Insight Environment Land_Score_Bucket_10,,,,bucket
+615,Insight Environment Land_Score_Bucket_unclassified,,,,bucket
+616,Insight Business Model_Score_Bucket_1,,,,bucket
+617,Insight Business Model_Score_Bucket_2,,,,bucket
+618,Insight Business Model_Score_Bucket_3,,,,bucket
+619,Insight Business Model_Score_Bucket_4,,,,bucket
+620,Insight Business Model_Score_Bucket_5,,,,bucket
+621,Insight Business Model_Score_Bucket_6,,,,bucket
+622,Insight Business Model_Score_Bucket_7,,,,bucket
+623,Insight Business Model_Score_Bucket_8,,,,bucket
+624,Insight Business Model_Score_Bucket_9,,,,bucket
+625,Insight Business Model_Score_Bucket_10,,,,bucket
+626,Insight Business Model_Score_Bucket_unclassified,,,,bucket
+627,Insight Political Influence_Score_Bucket_1,,,,bucket
+628,Insight Political Influence_Score_Bucket_2,,,,bucket
+629,Insight Political Influence_Score_Bucket_3,,,,bucket
+630,Insight Political Influence_Score_Bucket_4,,,,bucket
+631,Insight Political Influence_Score_Bucket_5,,,,bucket
+632,Insight Political Influence_Score_Bucket_6,,,,bucket
+633,Insight Political Influence_Score_Bucket_7,,,,bucket
+634,Insight Political Influence_Score_Bucket_8,,,,bucket
+635,Insight Political Influence_Score_Bucket_9,,,,bucket
+636,Insight Political Influence_Score_Bucket_10,,,,bucket
+637,Insight Political Influence_Score_Bucket_unclassified,,,,bucket
+638,Insight Anti-Competitive Behavior_Score_Bucket_1,,,,bucket
+639,Insight Anti-Competitive Behavior_Score_Bucket_2,,,,bucket
+640,Insight Anti-Competitive Behavior_Score_Bucket_3,,,,bucket
+641,Insight Anti-Competitive Behavior_Score_Bucket_4,,,,bucket
+642,Insight Anti-Competitive Behavior_Score_Bucket_5,,,,bucket
+643,Insight Anti-Competitive Behavior_Score_Bucket_6,,,,bucket
+644,Insight Anti-Competitive Behavior_Score_Bucket_7,,,,bucket
+645,Insight Anti-Competitive Behavior_Score_Bucket_8,,,,bucket
+646,Insight Anti-Competitive Behavior_Score_Bucket_9,,,,bucket
+647,Insight Anti-Competitive Behavior_Score_Bucket_10,,,,bucket
+648,Insight Anti-Competitive Behavior_Score_Bucket_unclassified,,,,bucket
+649,Insight Corporate Governance_Score_Bucket_1,,,,bucket
+650,Insight Corporate Governance_Score_Bucket_2,,,,bucket
+651,Insight Corporate Governance_Score_Bucket_3,,,,bucket
+652,Insight Corporate Governance_Score_Bucket_4,,,,bucket
+653,Insight Corporate Governance_Score_Bucket_5,,,,bucket
+654,Insight Corporate Governance_Score_Bucket_6,,,,bucket
+655,Insight Corporate Governance_Score_Bucket_7,,,,bucket
+656,Insight Corporate Governance_Score_Bucket_8,,,,bucket
+657,Insight Corporate Governance_Score_Bucket_9,,,,bucket
+658,Insight Corporate Governance_Score_Bucket_10,,,,bucket
+659,Insight Corporate Governance_Score_Bucket_unclassified,,,,bucket
+660,Insight Product Integrity And Innovation_Score_Bucket_1,,,,bucket
+661,Insight Product Integrity And Innovation_Score_Bucket_2,,,,bucket
+662,Insight Product Integrity And Innovation_Score_Bucket_3,,,,bucket
+663,Insight Product Integrity And Innovation_Score_Bucket_4,,,,bucket
+664,Insight Product Integrity And Innovation_Score_Bucket_5,,,,bucket
+665,Insight Product Integrity And Innovation_Score_Bucket_6,,,,bucket
+666,Insight Product Integrity And Innovation_Score_Bucket_7,,,,bucket
+667,Insight Product Integrity And Innovation_Score_Bucket_8,,,,bucket
+668,Insight Product Integrity And Innovation_Score_Bucket_9,,,,bucket
+669,Insight Product Integrity And Innovation_Score_Bucket_10,,,,bucket
+670,Insight Product Integrity And Innovation_Score_Bucket_unclassified,,,,bucket
+671,Insight Social Impact_Score_Bucket_1,,,,bucket
+672,Insight Social Impact_Score_Bucket_2,,,,bucket
+673,Insight Social Impact_Score_Bucket_3,,,,bucket
+674,Insight Social Impact_Score_Bucket_4,,,,bucket
+675,Insight Social Impact_Score_Bucket_5,,,,bucket
+676,Insight Social Impact_Score_Bucket_6,,,,bucket
+677,Insight Social Impact_Score_Bucket_7,,,,bucket
+678,Insight Social Impact_Score_Bucket_8,,,,bucket
+679,Insight Social Impact_Score_Bucket_9,,,,bucket
+680,Insight Social Impact_Score_Bucket_10,,,,bucket
+681,Insight Social Impact_Score_Bucket_unclassified,,,,bucket
+682,Insight TruValue_Score_Bucket_1,,,,bucket
+683,Insight TruValue_Score_Bucket_2,,,,bucket
+684,Insight TruValue_Score_Bucket_3,,,,bucket
+685,Insight TruValue_Score_Bucket_4,,,,bucket
+686,Insight TruValue_Score_Bucket_5,,,,bucket
+687,Insight TruValue_Score_Bucket_6,,,,bucket
+688,Insight TruValue_Score_Bucket_7,,,,bucket
+689,Insight TruValue_Score_Bucket_8,,,,bucket
+690,Insight TruValue_Score_Bucket_9,,,,bucket
+691,Insight TruValue_Score_Bucket_10,,,,bucket
+692,Insight TruValue_Score_Bucket_unclassified,,,,bucket
+693,Pulse Human Capital_Score_Bucket_1,,,,bucket
+694,Pulse Human Capital_Score_Bucket_2,,,,bucket
+695,Pulse Human Capital_Score_Bucket_3,,,,bucket
+696,Pulse Human Capital_Score_Bucket_4,,,,bucket
+697,Pulse Human Capital_Score_Bucket_5,,,,bucket
+698,Pulse Human Capital_Score_Bucket_6,,,,bucket
+699,Pulse Human Capital_Score_Bucket_7,,,,bucket
+700,Pulse Human Capital_Score_Bucket_8,,,,bucket
+701,Pulse Human Capital_Score_Bucket_9,,,,bucket
+702,Pulse Human Capital_Score_Bucket_10,,,,bucket
+703,Pulse Human Capital_Score_Bucket_unclassified,,,,bucket
+704,Pulse Supply Chain_Score_Bucket_1,,,,bucket
+705,Pulse Supply Chain_Score_Bucket_2,,,,bucket
+706,Pulse Supply Chain_Score_Bucket_3,,,,bucket
+707,Pulse Supply Chain_Score_Bucket_4,,,,bucket
+708,Pulse Supply Chain_Score_Bucket_5,,,,bucket
+709,Pulse Supply Chain_Score_Bucket_6,,,,bucket
+710,Pulse Supply Chain_Score_Bucket_7,,,,bucket
+711,Pulse Supply Chain_Score_Bucket_8,,,,bucket
+712,Pulse Supply Chain_Score_Bucket_9,,,,bucket
+713,Pulse Supply Chain_Score_Bucket_10,,,,bucket
+714,Pulse Supply Chain_Score_Bucket_unclassified,,,,bucket
+715,Pulse Environment Water_Score_Bucket_1,,,,bucket
+716,Pulse Environment Water_Score_Bucket_2,,,,bucket
+717,Pulse Environment Water_Score_Bucket_3,,,,bucket
+718,Pulse Environment Water_Score_Bucket_4,,,,bucket
+719,Pulse Environment Water_Score_Bucket_5,,,,bucket
+720,Pulse Environment Water_Score_Bucket_6,,,,bucket
+721,Pulse Environment Water_Score_Bucket_7,,,,bucket
+722,Pulse Environment Water_Score_Bucket_8,,,,bucket
+723,Pulse Environment Water_Score_Bucket_9,,,,bucket
+724,Pulse Environment Water_Score_Bucket_10,,,,bucket
+725,Pulse Environment Water_Score_Bucket_unclassified,,,,bucket
+726,Pulse Environment Atmosphere_Score_Bucket_1,,,,bucket
+727,Pulse Environment Atmosphere_Score_Bucket_2,,,,bucket
+728,Pulse Environment Atmosphere_Score_Bucket_3,,,,bucket
+729,Pulse Environment Atmosphere_Score_Bucket_4,,,,bucket
+730,Pulse Environment Atmosphere_Score_Bucket_5,,,,bucket
+731,Pulse Environment Atmosphere_Score_Bucket_6,,,,bucket
+732,Pulse Environment Atmosphere_Score_Bucket_7,,,,bucket
+733,Pulse Environment Atmosphere_Score_Bucket_8,,,,bucket
+734,Pulse Environment Atmosphere_Score_Bucket_9,,,,bucket
+735,Pulse Environment Atmosphere_Score_Bucket_10,,,,bucket
+736,Pulse Environment Atmosphere_Score_Bucket_unclassified,,,,bucket
+737,Pulse Marketing Practices_Score_Bucket_1,,,,bucket
+738,Pulse Marketing Practices_Score_Bucket_2,,,,bucket
+739,Pulse Marketing Practices_Score_Bucket_3,,,,bucket
+740,Pulse Marketing Practices_Score_Bucket_4,,,,bucket
+741,Pulse Marketing Practices_Score_Bucket_5,,,,bucket
+742,Pulse Marketing Practices_Score_Bucket_6,,,,bucket
+743,Pulse Marketing Practices_Score_Bucket_7,,,,bucket
+744,Pulse Marketing Practices_Score_Bucket_8,,,,bucket
+745,Pulse Marketing Practices_Score_Bucket_9,,,,bucket
+746,Pulse Marketing Practices_Score_Bucket_10,,,,bucket
+747,Pulse Marketing Practices_Score_Bucket_unclassified,,,,bucket
+748,Pulse Sustainable Energy Use And Production_Score_Bucket_1,,,,bucket
+749,Pulse Sustainable Energy Use And Production_Score_Bucket_2,,,,bucket
+750,Pulse Sustainable Energy Use And Production_Score_Bucket_3,,,,bucket
+751,Pulse Sustainable Energy Use And Production_Score_Bucket_4,,,,bucket
+752,Pulse Sustainable Energy Use And Production_Score_Bucket_5,,,,bucket
+753,Pulse Sustainable Energy Use And Production_Score_Bucket_6,,,,bucket
+754,Pulse Sustainable Energy Use And Production_Score_Bucket_7,,,,bucket
+755,Pulse Sustainable Energy Use And Production_Score_Bucket_8,,,,bucket
+756,Pulse Sustainable Energy Use And Production_Score_Bucket_9,,,,bucket
+757,Pulse Sustainable Energy Use And Production_Score_Bucket_10,,,,bucket
+758,Pulse Sustainable Energy Use And Production_Score_Bucket_unclassified,,,,bucket
+759,Pulse Data Security And Privacy_Score_Bucket_1,,,,bucket
+760,Pulse Data Security And Privacy_Score_Bucket_2,,,,bucket
+761,Pulse Data Security And Privacy_Score_Bucket_3,,,,bucket
+762,Pulse Data Security And Privacy_Score_Bucket_4,,,,bucket
+763,Pulse Data Security And Privacy_Score_Bucket_5,,,,bucket
+764,Pulse Data Security And Privacy_Score_Bucket_6,,,,bucket
+765,Pulse Data Security And Privacy_Score_Bucket_7,,,,bucket
+766,Pulse Data Security And Privacy_Score_Bucket_8,,,,bucket
+767,Pulse Data Security And Privacy_Score_Bucket_9,,,,bucket
+768,Pulse Data Security And Privacy_Score_Bucket_10,,,,bucket
+769,Pulse Data Security And Privacy_Score_Bucket_unclassified,,,,bucket
+770,Pulse Environment Land_Score_Bucket_1,,,,bucket
+771,Pulse Environment Land_Score_Bucket_2,,,,bucket
+772,Pulse Environment Land_Score_Bucket_3,,,,bucket
+773,Pulse Environment Land_Score_Bucket_4,,,,bucket
+774,Pulse Environment Land_Score_Bucket_5,,,,bucket
+775,Pulse Environment Land_Score_Bucket_6,,,,bucket
+776,Pulse Environment Land_Score_Bucket_7,,,,bucket
+777,Pulse Environment Land_Score_Bucket_8,,,,bucket
+778,Pulse Environment Land_Score_Bucket_9,,,,bucket
+779,Pulse Environment Land_Score_Bucket_10,,,,bucket
+780,Pulse Environment Land_Score_Bucket_unclassified,,,,bucket
+781,Pulse Business Model_Score_Bucket_1,,,,bucket
+782,Pulse Business Model_Score_Bucket_2,,,,bucket
+783,Pulse Business Model_Score_Bucket_3,,,,bucket
+784,Pulse Business Model_Score_Bucket_4,,,,bucket
+785,Pulse Business Model_Score_Bucket_5,,,,bucket
+786,Pulse Business Model_Score_Bucket_6,,,,bucket
+787,Pulse Business Model_Score_Bucket_7,,,,bucket
+788,Pulse Business Model_Score_Bucket_8,,,,bucket
+789,Pulse Business Model_Score_Bucket_9,,,,bucket
+790,Pulse Business Model_Score_Bucket_10,,,,bucket
+791,Pulse Business Model_Score_Bucket_unclassified,,,,bucket
+792,Pulse Political Influence_Score_Bucket_1,,,,bucket
+793,Pulse Political Influence_Score_Bucket_2,,,,bucket
+794,Pulse Political Influence_Score_Bucket_3,,,,bucket
+795,Pulse Political Influence_Score_Bucket_4,,,,bucket
+796,Pulse Political Influence_Score_Bucket_5,,,,bucket
+797,Pulse Political Influence_Score_Bucket_6,,,,bucket
+798,Pulse Political Influence_Score_Bucket_7,,,,bucket
+799,Pulse Political Influence_Score_Bucket_8,,,,bucket
+800,Pulse Political Influence_Score_Bucket_9,,,,bucket
+801,Pulse Political Influence_Score_Bucket_10,,,,bucket
+802,Pulse Political Influence_Score_Bucket_unclassified,,,,bucket
+803,Pulse Anti-Competitive Behavior_Score_Bucket_1,,,,bucket
+804,Pulse Anti-Competitive Behavior_Score_Bucket_2,,,,bucket
+805,Pulse Anti-Competitive Behavior_Score_Bucket_3,,,,bucket
+806,Pulse Anti-Competitive Behavior_Score_Bucket_4,,,,bucket
+807,Pulse Anti-Competitive Behavior_Score_Bucket_5,,,,bucket
+808,Pulse Anti-Competitive Behavior_Score_Bucket_6,,,,bucket
+809,Pulse Anti-Competitive Behavior_Score_Bucket_7,,,,bucket
+810,Pulse Anti-Competitive Behavior_Score_Bucket_8,,,,bucket
+811,Pulse Anti-Competitive Behavior_Score_Bucket_9,,,,bucket
+812,Pulse Anti-Competitive Behavior_Score_Bucket_10,,,,bucket
+813,Pulse Anti-Competitive Behavior_Score_Bucket_unclassified,,,,bucket
+814,Pulse Corporate Governance_Score_Bucket_1,,,,bucket
+815,Pulse Corporate Governance_Score_Bucket_2,,,,bucket
+816,Pulse Corporate Governance_Score_Bucket_3,,,,bucket
+817,Pulse Corporate Governance_Score_Bucket_4,,,,bucket
+818,Pulse Corporate Governance_Score_Bucket_5,,,,bucket
+819,Pulse Corporate Governance_Score_Bucket_6,,,,bucket
+820,Pulse Corporate Governance_Score_Bucket_7,,,,bucket
+821,Pulse Corporate Governance_Score_Bucket_8,,,,bucket
+822,Pulse Corporate Governance_Score_Bucket_9,,,,bucket
+823,Pulse Corporate Governance_Score_Bucket_10,,,,bucket
+824,Pulse Corporate Governance_Score_Bucket_unclassified,,,,bucket
+825,Pulse Product Integrity And Innovation_Score_Bucket_1,,,,bucket
+826,Pulse Product Integrity And Innovation_Score_Bucket_2,,,,bucket
+827,Pulse Product Integrity And Innovation_Score_Bucket_3,,,,bucket
+828,Pulse Product Integrity And Innovation_Score_Bucket_4,,,,bucket
+829,Pulse Product Integrity And Innovation_Score_Bucket_5,,,,bucket
+830,Pulse Product Integrity And Innovation_Score_Bucket_6,,,,bucket
+831,Pulse Product Integrity And Innovation_Score_Bucket_7,,,,bucket
+832,Pulse Product Integrity And Innovation_Score_Bucket_8,,,,bucket
+833,Pulse Product Integrity And Innovation_Score_Bucket_9,,,,bucket
+834,Pulse Product Integrity And Innovation_Score_Bucket_10,,,,bucket
+835,Pulse Product Integrity And Innovation_Score_Bucket_unclassified,,,,bucket
+836,Pulse Social Impact_Score_Bucket_1,,,,bucket
+837,Pulse Social Impact_Score_Bucket_2,,,,bucket
+838,Pulse Social Impact_Score_Bucket_3,,,,bucket
+839,Pulse Social Impact_Score_Bucket_4,,,,bucket
+840,Pulse Social Impact_Score_Bucket_5,,,,bucket
+841,Pulse Social Impact_Score_Bucket_6,,,,bucket
+842,Pulse Social Impact_Score_Bucket_7,,,,bucket
+843,Pulse Social Impact_Score_Bucket_8,,,,bucket
+844,Pulse Social Impact_Score_Bucket_9,,,,bucket
+845,Pulse Social Impact_Score_Bucket_10,,,,bucket
+846,Pulse Social Impact_Score_Bucket_unclassified,,,,bucket
+847,Pulse TruValue_Score_Bucket_1,,,,bucket
+848,Pulse TruValue_Score_Bucket_2,,,,bucket
+849,Pulse TruValue_Score_Bucket_3,,,,bucket
+850,Pulse TruValue_Score_Bucket_4,,,,bucket
+851,Pulse TruValue_Score_Bucket_5,,,,bucket
+852,Pulse TruValue_Score_Bucket_6,,,,bucket
+853,Pulse TruValue_Score_Bucket_7,,,,bucket
+854,Pulse TruValue_Score_Bucket_8,,,,bucket
+855,Pulse TruValue_Score_Bucket_9,,,,bucket
+856,Pulse TruValue_Score_Bucket_10,,,,bucket
+857,Pulse TruValue_Score_Bucket_unclassified,,,,bucket
+858,top 1/3 by Insight Human Capital,,,,top
+859,middle 1/3 by  Insight Human Capital,,,,middle
+860,lowest 1/3 by  Insight Human Capital,,,,lowest
+861,"long top 1/3, short bottom 1/3 by  Insight Human Capital",,,,long_short
+862,top 1/3 by Insight Supply Chain,,,,top
+863,middle 1/3 by  Insight Supply Chain,,,,middle
+864,lowest 1/3 by  Insight Supply Chain,,,,lowest
+865,"long top 1/3, short bottom 1/3 by  Insight Supply Chain",,,,long_short
+866,top 1/3 by Insight Environment Water,,,,top
+867,middle 1/3 by  Insight Environment Water,,,,middle
+868,lowest 1/3 by  Insight Environment Water,,,,lowest
+869,"long top 1/3, short bottom 1/3 by  Insight Environment Water",,,,long_short
+870,top 1/3 by Insight Environment Atmosphere,,,,top
+871,middle 1/3 by  Insight Environment Atmosphere,,,,middle
+872,lowest 1/3 by  Insight Environment Atmosphere,,,,lowest
+873,"long top 1/3, short bottom 1/3 by  Insight Environment Atmosphere",,,,long_short
+874,top 1/3 by Insight Marketing Practices,,,,top
+875,middle 1/3 by  Insight Marketing Practices,,,,middle
+876,lowest 1/3 by  Insight Marketing Practices,,,,lowest
+877,"long top 1/3, short bottom 1/3 by  Insight Marketing Practices",,,,long_short
+878,top 1/3 by Insight Sustainable Energy Use And Production,,,,top
+879,middle 1/3 by  Insight Sustainable Energy Use And Production,,,,middle
+880,lowest 1/3 by  Insight Sustainable Energy Use And Production,,,,lowest
+881,"long top 1/3, short bottom 1/3 by  Insight Sustainable Energy Use And Production",,,,long_short
+882,top 1/3 by Insight Data Security And Privacy,,,,top
+883,middle 1/3 by  Insight Data Security And Privacy,,,,middle
+884,lowest 1/3 by  Insight Data Security And Privacy,,,,lowest
+885,"long top 1/3, short bottom 1/3 by  Insight Data Security And Privacy",,,,long_short
+886,top 1/3 by Insight Environment Land,,,,top
+887,middle 1/3 by  Insight Environment Land,,,,middle
+888,lowest 1/3 by  Insight Environment Land,,,,lowest
+889,"long top 1/3, short bottom 1/3 by  Insight Environment Land",,,,long_short
+890,top 1/3 by Insight Business Model,,,,top
+891,middle 1/3 by  Insight Business Model,,,,middle
+892,lowest 1/3 by  Insight Business Model,,,,lowest
+893,"long top 1/3, short bottom 1/3 by  Insight Business Model",,,,long_short
+894,top 1/3 by Insight Political Influence,,,,top
+895,middle 1/3 by  Insight Political Influence,,,,middle
+896,lowest 1/3 by  Insight Political Influence,,,,lowest
+897,"long top 1/3, short bottom 1/3 by  Insight Political Influence",,,,long_short
+898,top 1/3 by Insight Anti-Competitive Behavior,,,,top
+899,middle 1/3 by  Insight Anti-Competitive Behavior,,,,middle
+900,lowest 1/3 by  Insight Anti-Competitive Behavior,,,,lowest
+901,"long top 1/3, short bottom 1/3 by  Insight Anti-Competitive Behavior",,,,long_short
+902,top 1/3 by Insight Corporate Governance,,,,top
+903,middle 1/3 by  Insight Corporate Governance,,,,middle
+904,lowest 1/3 by  Insight Corporate Governance,,,,lowest
+905,"long top 1/3, short bottom 1/3 by  Insight Corporate Governance",,,,long_short
+906,top 1/3 by Insight Product Integrity And Innovation,,,,top
+907,middle 1/3 by  Insight Product Integrity And Innovation,,,,middle
+908,lowest 1/3 by  Insight Product Integrity And Innovation,,,,lowest
+909,"long top 1/3, short bottom 1/3 by  Insight Product Integrity And Innovation",,,,long_short
+910,top 1/3 by Insight Social Impact,,,,top
+911,middle 1/3 by  Insight Social Impact,,,,middle
+912,lowest 1/3 by  Insight Social Impact,,,,lowest
+913,"long top 1/3, short bottom 1/3 by  Insight Social Impact",,,,long_short
+914,top 1/3 by Insight TruValue,,,,top
+915,middle 1/3 by  Insight TruValue,,,,middle
+916,lowest 1/3 by  Insight TruValue,,,,lowest
+917,"long top 1/3, short bottom 1/3 by  Insight TruValue",,,,long_short
+918,top 1/3 by Pulse Human Capital,,,,top
+919,middle 1/3 by  Pulse Human Capital,,,,middle
+920,lowest 1/3 by  Pulse Human Capital,,,,lowest
+921,"long top 1/3, short bottom 1/3 by  Pulse Human Capital",,,,long_short
+922,top 1/3 by Pulse Supply Chain,,,,top
+923,middle 1/3 by  Pulse Supply Chain,,,,middle
+924,lowest 1/3 by  Pulse Supply Chain,,,,lowest
+925,"long top 1/3, short bottom 1/3 by  Pulse Supply Chain",,,,long_short
+926,top 1/3 by Pulse Environment Water,,,,top
+927,middle 1/3 by  Pulse Environment Water,,,,middle
+928,lowest 1/3 by  Pulse Environment Water,,,,lowest
+929,"long top 1/3, short bottom 1/3 by  Pulse Environment Water",,,,long_short
+930,top 1/3 by Pulse Environment Atmosphere,,,,top
+931,middle 1/3 by  Pulse Environment Atmosphere,,,,middle
+932,lowest 1/3 by  Pulse Environment Atmosphere,,,,lowest
+933,"long top 1/3, short bottom 1/3 by  Pulse Environment Atmosphere",,,,long_short
+934,top 1/3 by Pulse Marketing Practices,,,,top
+935,middle 1/3 by  Pulse Marketing Practices,,,,middle
+936,lowest 1/3 by  Pulse Marketing Practices,,,,lowest
+937,"long top 1/3, short bottom 1/3 by  Pulse Marketing Practices",,,,long_short
+938,top 1/3 by Pulse Sustainable Energy Use And Production,,,,top
+939,middle 1/3 by  Pulse Sustainable Energy Use And Production,,,,middle
+940,lowest 1/3 by  Pulse Sustainable Energy Use And Production,,,,lowest
+941,"long top 1/3, short bottom 1/3 by  Pulse Sustainable Energy Use And Production",,,,long_short
+942,top 1/3 by Pulse Data Security And Privacy,,,,top
+943,middle 1/3 by  Pulse Data Security And Privacy,,,,middle
+944,lowest 1/3 by  Pulse Data Security And Privacy,,,,lowest
+945,"long top 1/3, short bottom 1/3 by  Pulse Data Security And Privacy",,,,long_short
+946,top 1/3 by Pulse Environment Land,,,,top
+947,middle 1/3 by  Pulse Environment Land,,,,middle
+948,lowest 1/3 by  Pulse Environment Land,,,,lowest
+949,"long top 1/3, short bottom 1/3 by  Pulse Environment Land",,,,long_short
+950,top 1/3 by Pulse Business Model,,,,top
+951,middle 1/3 by  Pulse Business Model,,,,middle
+952,lowest 1/3 by  Pulse Business Model,,,,lowest
+953,"long top 1/3, short bottom 1/3 by  Pulse Business Model",,,,long_short
+954,top 1/3 by Pulse Political Influence,,,,top
+955,middle 1/3 by  Pulse Political Influence,,,,middle
+956,lowest 1/3 by  Pulse Political Influence,,,,lowest
+957,"long top 1/3, short bottom 1/3 by  Pulse Political Influence",,,,long_short
+958,top 1/3 by Pulse Anti-Competitive Behavior,,,,top
+959,middle 1/3 by  Pulse Anti-Competitive Behavior,,,,middle
+960,lowest 1/3 by  Pulse Anti-Competitive Behavior,,,,lowest
+961,"long top 1/3, short bottom 1/3 by  Pulse Anti-Competitive Behavior",,,,long_short
+962,top 1/3 by Pulse Corporate Governance,,,,top
+963,middle 1/3 by  Pulse Corporate Governance,,,,middle
+964,lowest 1/3 by  Pulse Corporate Governance,,,,lowest
+965,"long top 1/3, short bottom 1/3 by  Pulse Corporate Governance",,,,long_short
+966,top 1/3 by Pulse Product Integrity And Innovation,,,,top
+967,middle 1/3 by  Pulse Product Integrity And Innovation,,,,middle
+968,lowest 1/3 by  Pulse Product Integrity And Innovation,,,,lowest
+969,"long top 1/3, short bottom 1/3 by  Pulse Product Integrity And Innovation",,,,long_short
+970,top 1/3 by Pulse Social Impact,,,,top
+971,middle 1/3 by  Pulse Social Impact,,,,middle
+972,lowest 1/3 by  Pulse Social Impact,,,,lowest
+973,"long top 1/3, short bottom 1/3 by  Pulse Social Impact",,,,long_short
+974,top 1/3 by Pulse TruValue,,,,top
+975,middle 1/3 by  Pulse TruValue,,,,middle
+976,lowest 1/3 by  Pulse TruValue,,,,lowest
+977,"long top 1/3, short bottom 1/3 by  Pulse TruValue",,,,long_short
+978,Country,,,,
+979,Region,,,,
+980,Industry,,,,
+981,Sector,,,,
+982,Region cross sector,,,,

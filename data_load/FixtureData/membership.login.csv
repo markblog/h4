@@ -1,0 +1,4 @@
+id,login_name,display_name,password,email,organization_id
+1,ssgx,SSGX User,hangzhou,,1
+2,clienta,Client A User,passw0rd,,2
+3,clientb,Client B User,passw0rd,,3

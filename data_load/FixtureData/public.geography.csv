@@ -1,0 +1,250 @@
+id,name,level,parent_id,code
+10,Asia Pacific Developed,1,,
+20,Asia Pacific Emerging,1,,
+30,Europe Developed,1,,
+40,Europe Emerging,1,,
+50,Latin America and Carribean,1,,
+60,Middle East,1,,
+70,Sub Saharan Africa,1,,
+80,United States and Canada,1,,
+1001,Australia,2,10,AU
+1002,Hong Kong,2,10,HK
+1003,Japan,2,10,JP
+1004,Macau,2,10,MO
+1005,New Zealand,2,10,NZ
+1006,Singapore,2,10,SG
+1007,South Korea,2,10,KR
+1008,Taiwan,2,10,TW
+1010,Afghanistan,2,20,AF
+1011,American Samoa,2,20,AS
+1012,Armenia,2,20,AM
+1013,Azerbaijan,2,20,AZ
+1014,Bangladesh,2,20,BD
+1015,Bhutan,2,20,BT
+1016,British Indian Ocean Territory,2,20,IO
+1017,Brunei,2,20,BN
+1018,Cambodia,2,20,KH
+1019,China,2,20,CN
+1020,Christmas Island,2,20,CX
+1021,Cocos Islands,2,20,CC
+1022,Cook Islands,2,20,CK
+1023,East Timor,2,20,TL
+1024,Fiji,2,20,FJ
+1025,French Polynesia,2,20,PF
+1026,Georgia,2,20,GE
+1027,Guam,2,20,GU
+1028,India,2,20,IN
+1029,Indonesia,2,20,ID
+1030,Kazakhstan,2,20,KZ
+1031,Kiribati,2,20,KI
+1032,Kyrgyzstan,2,20,KG
+1033,Laos,2,20,LA
+1034,Malaysia,2,20,MY
+1035,Maldives,2,20,MV
+1036,Marshall Islands,2,20,MH
+1037,Micronesia,2,20,FM
+1038,Mongolia,2,20,MN
+1039,Myanmar,2,20,MM
+1040,Nauru,2,20,NR
+1041,Nepal,2,20,NP
+1042,New Caledonia,2,20,NC
+1043,Niue,2,20,NU
+1044,Norfolk Island,2,20,NF
+1045,North Korea,2,20,KP
+1046,Northern Mariana Islands,2,20,MP
+1047,Oman,2,20,OM
+1048,Pakistan,2,20,PK
+1049,Palau,2,20,PW
+1050,Papua New Guinea,2,20,PG
+1051,Philippines,2,20,PH
+1052,Pitcairn Islands,2,20,PN
+1053,Qatar,2,20,QA
+1054,Samoa,2,20,WS
+1055,Solomon Islands,2,20,SB
+1056,Sri Lanka,2,20,LK
+1057,Tajikistan,2,20,TJ
+1058,Thailand,2,20,TH
+1059,Tokelau,2,20,TK
+1060,Tonga,2,20,TO
+1061,Turkmenistan,2,20,TM
+1062,Tuvalu,2,20,TV
+1063,Uzbekistan,2,20,UZ
+1064,Vanuatu,2,20,VU
+1065,Vietnam,2,20,VN
+1066,Wallis and Futuna,2,20,WF
+1068,Aland Islands,2,30,AX
+1069,Austria,2,30,AT
+1070,Belgium,2,30,BE
+1071,Denmark,2,30,DK
+1072,Finland,2,30,FI
+1073,France,2,30,FR
+1074,Germany,2,30,DE
+1075,Gibraltar,2,30,GI
+1076,Greece,2,30,GR
+1077,Greenland,2,30,GL
+1078,Guernsey,2,30,GG
+1079,Iceland,2,30,IS
+1080,Ireland,2,30,IE
+1081,Isle of Man,2,30,IM
+1082,Israel,2,30,IL
+1083,Italy,2,30,IT
+1084,Jersey,2,30,JE
+1085,Liechtenstein,2,30,LI
+1086,Luxembourg,2,30,LU
+1087,Malta,2,30,MT
+1088,Monaco,2,30,MC
+1089,Netherlands,2,30,NL
+1090,Norway,2,30,NO
+1091,Poland,2,30,PL
+1092,Portugal,2,30,PT
+1093,Romania,2,30,RO
+1094,San Marino,2,30,SM
+1095,Spain,2,30,ES
+1096,Svalbard,2,30,SJ
+1097,Sweden,2,30,SE
+1098,Switzerland,2,30,CH
+1099,United Kingdom,2,30,GB
+1100,Vatican City,2,30,VA
+1102,Albania,2,40,AL
+1103,Andorra,2,40,AD
+1104,Belarus,2,40,BY
+1105,Bosnia and Herzegovina,2,40,BA
+1106,Bulgaria,2,40,BG
+1107,Croatia,2,40,HR
+1108,Czech Republic,2,40,CZ
+1109,Estonia,2,40,EE
+1110,Faroe Islands,2,40,FO
+1111,Hungary,2,40,HU
+1112,Latvia,2,40,LV
+1113,Lithuania,2,40,LT
+1114,Macedonia,2,40,MK
+1115,Moldova,2,40,MD
+1116,Montenegro,2,40,ME
+1117,Russia,2,40,RU
+1118,Serbia,2,40,RS
+1119,Slovakia,2,40,SK
+1120,Slovenia,2,40,SI
+1121,Ukraine,2,40,UA
+1123,Anguilla,2,50,AI
+1124,Antigua and Barbuda,2,50,AG
+1125,Argentina,2,50,AR
+1126,Aruba,2,50,AW
+1127,Bahamas,2,50,BS
+1128,Barbados,2,50,BB
+1129,Belize,2,50,BZ
+1130,Bermuda,2,50,BM
+1131,Bolivia,2,50,BO
+1132,Brazil,2,50,BR
+1133,British Virgin Islands,2,50,VG
+1134,Cayman Islands,2,50,KY
+1135,Chile,2,50,CL
+1136,Colombia,2,50,CO
+1137,Costa Rica,2,50,CR
+1138,Cuba,2,50,CU
+1139,Curacao,2,50,CW
+1140,Dominica,2,50,DM
+1141,Dominican Republic,2,50,DO
+1142,Ecuador,2,50,EC
+1143,El Salvador,2,50,SV
+1144,French Guiana,2,50,GF
+1145,Grenada,2,50,GD
+1146,Guadeloupe,2,50,GP
+1147,Guatemala,2,50,GT
+1148,Guyana,2,50,GY
+1149,Haiti,2,50,HT
+1150,Honduras,2,50,HN
+1151,Jamaica,2,50,JM
+1152,Martinique,2,50,MQ
+1153,Mexico,2,50,MX
+1154,Montserrat,2,50,MS
+1155,Nicaragua,2,50,NI
+1156,Panama,2,50,PA
+1157,Paraguay,2,50,PY
+1158,Peru,2,50,PE
+1159,Puerto Rico,2,50,PR
+1160,Saint Kitts and Nevis,2,50,KN
+1161,Saint Lucia,2,50,LC
+1162,Saint Martin,2,50,MF
+1164,Saint Pierre and Miquelon,2,50,PM
+1165,Saint Vincent and the Grenadines,2,50,VC
+1166,South Georgia and the South Sandwich Islands,2,50,GS
+1167,Suriname,2,50,SR
+1168,Trinidad and Tobago,2,50,TT
+1169,Turks and Caicos Islands,2,50,TC
+1170,United States Virgin Islands,2,50,VI
+1171,Uruguay,2,50,UY
+1172,Venezuela,2,50,VE
+1174,Algeria,2,60,DZ
+1175,Bahrain,2,60,BH
+1176,Cyprus,2,60,CY
+1177,Egypt,2,60,EG
+1178,Iran,2,60,IR
+1179,Iraq,2,60,IQ
+1180,Jordan,2,60,JO
+1181,Kuwait,2,60,KW
+1182,Lebanon,2,60,LB
+1183,Libya,2,60,LY
+1184,Morocco,2,60,MA
+1185,Palestine,2,60,PS
+1186,Saudi Arabia,2,60,SA
+1187,Syria,2,60,SY
+1188,Tunisia,2,60,TN
+1189,Turkey,2,60,TR
+1190,United Arab Emirates,2,60,AE
+1191,Western Sahara,2,60,EH
+1192,Yemen,2,60,YE
+1194,Angola,2,70,AO
+1195,Benin,2,70,BJ
+1196,Botswana,2,70,BW
+1197,Burkina Faso,2,70,BF
+1198,Burundi,2,70,BI
+1199,Cameroon,2,70,CM
+1200,Cape Verde,2,70,CV
+1201,Central African Republic,2,70,CF
+1202,Chad,2,70,TD
+1203,Comoros,2,70,KM
+1204,Congo (Democratic Republic),2,70,CD
+1205,Congo (Republic),2,70,CG
+1206,Djibouti,2,70,DJ
+1207,Equatorial Guinea,2,70,GQ
+1208,Eritrea,2,70,ER
+1209,Ethiopia,2,70,ET
+1210,Gabon,2,70,GA
+1211,Gambia,2,70,GM
+1212,Ghana,2,70,GH
+1213,Guinea,2,70,GN
+1214,Guinea-Bissau,2,70,GW
+1215,Ivory Coast,2,70,CI
+1216,Kenya,2,70,KE
+1217,Lesotho,2,70,LS
+1218,Liberia,2,70,LR
+1219,Madagascar,2,70,MG
+1220,Malawi,2,70,MW
+1221,Mali,2,70,ML
+1222,Mauritania,2,70,MR
+1223,Mauritius,2,70,MU
+1224,Mayotte,2,70,YT
+1225,Mozambique,2,70,MZ
+1226,Namibia,2,70,NA
+1227,Niger,2,70,NE
+1228,Nigeria,2,70,NG
+1229,Reunion,2,70,RE
+1230,Rwanda,2,70,RW
+1231,"Saint Helena, Ascension and Tristan da Cunha",2,70,SH
+1232,Sao Tome and Principe,2,70,ST
+1233,Senegal,2,70,SN
+1234,Seychelles,2,70,SC
+1235,Sierra Leone,2,70,SL
+1236,Somalia,2,70,SO
+1237,South Africa,2,70,ZA
+1238,South Sudan,2,70,SS
+1239,Sudan,2,70,SD
+1240,Swaziland,2,70,SZ
+1241,Tanzania,2,70,TZ
+1242,Togo,2,70,TG
+1243,Uganda,2,70,UG
+1244,Zambia,2,70,ZM
+1245,Zimbabwe,2,70,ZW
+1247,Canada,2,80,CA
+1248,United States,2,80,US
+999910,Unclassified region,1,,

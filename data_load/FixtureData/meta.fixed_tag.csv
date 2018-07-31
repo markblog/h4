@@ -1,0 +1,5 @@
+id,tag_type_id,description,table_name,field_name
+13,3,Number of securities,portfolio_result,number_securities
+12,3,Market Value,portfolio_result,market_value
+11,3,Return,portfolio_result,return_daily
+10,3,Cumulative Return,portfolio_result,cumulative_return

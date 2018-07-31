@@ -1,0 +1,187 @@
+alert_history_id,index,value
+1,0,MARSH & MCLENNAN COS INC
+1,1,Arabesque ESG
+1,2,3.10%
+1,3,day
+2,0,COLGATE-PALMOLIVE CO
+2,1,Arabesque ESG
+2,2,2.10%
+2,3,day
+3,0,FRANKLIN RESOURCES INC
+3,1,Arabesque human rights
+3,2,5.50%
+3,3,day
+4,0,CLOROX CO
+4,1,Arabesque human rights
+4,2,9%
+4,3,month
+5,0,LINK FINANCE CAYMAN 2009 LT
+5,1,Arabesque ESG
+5,2,3.35%
+5,3,day
+6,0,MARSH & MCLENNAN COS INC
+6,1,Arabesque ESG
+6,2,2.10%
+6,3,month
+7,0,COLGATE-PALMOLIVE CO
+7,1,Arabesque ESG Governance Score
+7,2,10.50%
+7,3,quarter
+8,0,SINGAPORE TELECOMMUNICATION
+8,1,Arabesque ESG Social Score
+8,2,6.50%
+8,3,day
+9,0,SINGTEL GROUP TREASURY P
+9,1,Arabesque UNGC
+9,2,5.50%
+9,3,month
+10,0,OPTUS FINANCE PTY LTD
+10,1,Arabesque UNGC Environment
+10,2,5.30%
+10,3,day
+11,0,SINGAPORE TELECOMMUNICATIONS
+11,1,Arabesque ESG
+11,2,2.30%
+11,3,month
+12,0,RECKITT BENCKISER TSY SVS PLC
+12,1,Arabesque UNGC
+12,2,1.60%
+12,3,day
+13,0,Portfolio A
+13,1,Arabesque ESG
+13,2,3%
+13,3,day
+14,0,Portfolio A
+14,1,Arabesque UNGC
+14,2,5%
+14,3,day
+15,0,Portfolio A
+15,1,Arabesque UNGC
+15,2,3.10%
+15,3,day
+15,4,Northern Mariana Islands
+16,0,Portfolio A
+16,1,Arabesque ESG
+16,2,2.20%
+16,3,day
+16,4,Cameroon
+17,0,Portfolio A
+17,1,Arabesque UNGC
+17,2,2.50%
+17,3,day
+17,4,Tokelau
+18,0,Portfolio A
+18,1,Arabesque UNGC
+18,2,9.20%
+18,3,day
+18,4,Dominican Republic
+19,0,Portfolio A
+19,1,Arabesque human rights
+19,2,1.10%
+19,3,day
+19,4,Sub Saharan Africa
+20,0,Portfolio A
+20,1,Arabesque UNGC
+20,2,12.50%
+20,3,day
+20,4,Asia Pacific Emerging
+21,0,Portfolio A
+21,1,Arabesque UNGC Environment
+21,2,3.10%
+21,3,day
+21,4,Latin America and Carribean
+22,0,Portfolio A
+22,1,Arabesque Environment
+22,2,5.10%
+22,3,day
+22,4,France
+23,0,Portfolio A
+23,1,Arabesque UNGC Environment
+23,2,3.20%
+23,3,day
+23,4,Italy
+24,0,Portfolio A
+24,1,Arabesque UNGC Environment
+24,2,2.70%
+24,3,day
+24,4,Chile
+25,0,Portfolio A
+25,1,Arabesque UNGC Environment
+25,2,1.90%
+25,3,day
+25,4,Australia
+26,0,Portfolio A
+26,1,Arabesque UNGC Environment
+26,2,3.10%
+26,3,day
+26,4,Egypt
+27,0,Portfolio A
+27,1,Arabesque ESG Governance Score
+27,2,2.10%
+27,3,day
+27,4,Asia Pacific Emerging
+28,0,Portfolio A
+28,1,Arabesque UNGC
+28,2,3.60%
+28,3,day
+28,4,Middle Ease
+29,0,Portfolio A
+29,1,Arabesque UNGC Environment
+29,2,2.10%
+29,3,day
+29,4,United States and Canada
+30,0,Portfolio A
+30,1,Arabesque ESG Governance Score
+30,2,1.70%
+30,3,day
+30,4,Europe Emerging
+31,0,Portfolio A
+31,1,Arabesque UNGC
+31,2,2.70%
+31,3,day
+31,4,Media
+32,0,Portfolio A
+32,1,Arabesque UNGC
+32,2,8.20%
+32,3,day
+32,4,banks
+33,0,Portfolio A
+33,1,Arabesque UNGC
+33,2,5.50%
+33,3,day
+33,4,Materials
+34,0,Portfolio A
+34,1,Arabesque UNGC
+34,2,2.70%
+34,3,day
+34,4,Energy
+35,0,Portfolio A
+35,1,Arabesque UNGC
+35,2,1.50%
+35,3,day
+35,4,Financial
+36,0,Portfolio A
+36,1,Arabesque UNGC
+36,2,1.10%
+36,3,day
+36,4,Utilities
+37,0,Portfolio A
+37,1,Arabesque UNGC
+37,2,1.30%
+37,3,day
+37,4,Real Estate
+38,0,Portfolio A
+38,1,Arabesque UNGC
+38,2,3.40%
+38,3,day
+38,4,Asia Pacific Emerging cross Energy
+39,0,Portfolio A
+39,1,Arabesque UNGC
+39,2,5.20%
+39,3,day
+39,4,Asia Pacific Emerging cross Financial
+40,0,Portfolio A
+40,1,Arabesque UNGC
+40,2,3.70%
+40,3,day
+40,4,Asia Pacific Emerging cross Utilities

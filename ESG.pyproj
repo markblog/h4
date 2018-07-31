@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{711b3426-ea7e-43f7-ba8d-d90aeea4b5c0}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>manager.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <PythonWsgiHandler>$(MSBuildProjectName).app</PythonWsgiHandler>
+    <UseIISExpress>true</UseIISExpress>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <CommandLineArguments>runserver</CommandLineArguments>
+    <WebBrowserUrl>
+    </WebBrowserUrl>
+    <StaticUriPattern>^/static/.*</StaticUriPattern>
+    <StaticUriRewrite>^/$(MSBuildProjectName)/static/.*</StaticUriRewrite>
+    <WebBrowserPort>
+    </WebBrowserPort>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="esg\services\charts\charts_router.yml" />
+    <Content Include="index.html" />
+    <Content Include="migrations\alembic.ini" />
+    <Content Include="notes.txt" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="application.py" />
+    <Compile Include="blueprint_register.py" />
+    <Compile Include="cache\cache_decorator.py" />
+    <Compile Include="cache\__init__.py" />
+    <Compile Include="config.py" />
+    <Compile Include="esg\app_esg.py" />
+    <Compile Include="esg\models\alert_digest_history_model.py" />
+    <Compile Include="esg\models\alert_history_model.py" />
+    <Compile Include="esg\models\alert_search_tag_model.py" />
+    <Compile Include="esg\models\alert_substitution_value_model.py" />
+    <Compile Include="esg\models\alert_type_model.py" />
+    <Compile Include="esg\models\charts\bar_chart.py" />
+    <Compile Include="esg\models\charts\base_charts.py" />
+    <Compile Include="esg\models\charts\donut_chart.py" />
+    <Compile Include="esg\models\charts\line_chart.py" />
+    <Compile Include="esg\models\charts\map_chart.py" />
+    <Compile Include="esg\models\charts\scatter_chart.py" />
+    <Compile Include="esg\models\charts\__init__.py" />
+    <Compile Include="esg\models\company_primary_security_model.py" />
+    <Compile Include="esg\models\esg_charts_model.py" />
+    <Compile Include="esg\models\exceptions\custom_exceptions.py" />
+    <Compile Include="esg\models\exchange_rate.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="esg\models\fixed_tag_model.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="esg\models\grouping_model.py" />
+    <Compile Include="esg\models\login_model.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="esg\models\metric_model.py" />
+    <Compile Include="esg\models\organization_model.py" />
+    <Compile Include="esg\models\portfolio_esg_score_model.py" />
+    <Compile Include="esg\models\portfolio_grouping_metric_model.py" />
+    <Compile Include="esg\models\portfolio_metric_date_model.py" />
+    <Compile Include="esg\models\portfolio_security_model.py" />
+    <Compile Include="esg\models\portfolio_security_value_model.py" />
+    <Compile Include="esg\models\security_financial_series_model.py" />
+    <Compile Include="esg\models\security_model.py" />
+    <Compile Include="esg\models\session_model.py" />
+    <Compile Include="esg\models\tag_history_model.py" />
+    <Compile Include="esg\models\weight_method_model.py" />
+    <Compile Include="esg\request_errors.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="esg\models\asset_type_model.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="esg\models\company_asset_model.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="esg\models\company_esg_factor_model.py" />
+    <Compile Include="esg\models\company_esg_summary_model.py" />
+    <Compile Include="esg\models\company_model.py" />
+    <Compile Include="esg\models\company_supplier_model.py" />
+    <Compile Include="esg\models\correlation_group_model.py" />
+    <Compile Include="esg\models\data_provider_model.py" />
+    <Compile Include="esg\models\esg_factor_model.py" />
+    <Compile Include="esg\models\esg_model.py" />
+    <Compile Include="esg\models\esg_rating_model.py" />
+    <Compile Include="esg\models\geography_model.py" />
+    <Compile Include="esg\models\portfolio_model.py" />
+    <Compile Include="esg\models\portfolio_result_model.py" />
+    <Compile Include="esg\models\sector_model.py" />
+    <Compile Include="esg\models\tag_category_model.py" />
+    <Compile Include="esg\models\tag_type_model.py" />
+    <Compile Include="esg\models\__init__.py" />
+    <Compile Include="esg\resources\alert_type_resource.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="esg\resources\auth_resource.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="esg\resources\chart_resource.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="esg\resources\company_financial_series_resource.py" />
+    <Compile Include="esg\resources\company_resource.py" />
+    <Compile Include="esg\resources\data_management_resource.py" />
+    <Compile Include="esg\resources\data_provider_resource.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="esg\resources\esg_charts_resource.py" />
+    <Compile Include="esg\resources\esg_resource.py" />
+    <Compile Include="esg\resources\geography_resource.py" />
+    <Compile Include="esg\resources\portfolio_resource.py" />
+    <Compile Include="esg\resources\tag_history_resource.py" />
+    <Compile Include="esg\resources\tag_type_resource.py" />
+    <Compile Include="esg\resources\test_charts.py" />
+    <Compile Include="esg\resources\__init__.py" />
+    <Compile Include="esg\services\charts\charting_rules.py" />
+    <Compile Include="esg\services\charts\charts_factory.py" />
+    <Compile Include="esg\services\charts\charts_lib\all_esg_scores_for_portfolio_or_security.py" />
+    <Compile Include="esg\services\charts\charts_lib\distribution_of_esg_scores.py" />
+    <Compile Include="esg\services\charts\charts_lib\global_view_of_portfolio.py" />
+    <Compile Include="esg\services\charts\charts_lib\multiple_channel_esg_distribution_histogram.py" />
+    <Compile Include="esg\services\charts\charts_lib\multiple_channle_esg_score_time_series.py" />
+    <Compile Include="esg\services\charts\charts_lib\portfolio_metric_histogram.py" />
+    <Compile Include="esg\services\charts\charts_lib\portfolio_metric_time_series.py" />
+    <Compile Include="esg\services\charts\charts_lib\single_channel_esg_distribution_histogram.py" />
+    <Compile Include="esg\services\charts\charts_lib\single_channel_esg_score_time_series.py" />
+    <Compile Include="esg\services\charts\charts_lib\single_esg_performance_over_time.py" />
+    <Compile Include="esg\services\charts\charts_lib\single_esg_score_by_weight.py" />
+    <Compile Include="esg\services\charts\portfolio_time_frequency.py" />
+    <Compile Include="esg\services\charts\time_frequency.py" />
+    <Compile Include="esg\services\esg_services.py" />
+    <Compile Include="esg\services\portfolios\portfolio_services.py" />
+    <Compile Include="esg\services\__init__.py" />
+    <Compile Include="esg\__init__.py" />
+    <Compile Include="ext.py" />
+    <Compile Include="manager.py" />
+    <Compile Include="migrations\env.py" />
+    <Compile Include="migrations\versions\00e723b88564_.py" />
+    <Compile Include="migrations\versions\1dd4af39a4bb_.py" />
+    <Compile Include="migrations\versions\2c91dcb26fab_.py" />
+    <Compile Include="migrations\versions\36213e0fd094_.py" />
+    <Compile Include="migrations\versions\533426e517c8_.py" />
+    <Compile Include="migrations\versions\5bef031772b0_.py" />
+    <Compile Include="migrations\versions\74b2a0989d26_.py" />
+    <Compile Include="migrations\versions\764465ae5355_.py" />
+    <Compile Include="migrations\versions\847ea34324ca_.py" />
+    <Compile Include="migrations\versions\a6ece6a151e9_.py" />
+    <Compile Include="migrations\versions\a79b5c20fcb3_.py" />
+    <Compile Include="migrations\versions\a7eae8eb920f_.py" />
+    <Compile Include="migrations\versions\b634c8e30bd7_.py" />
+    <Compile Include="migrations\versions\c3fb9b469389_.py" />
+    <Compile Include="migrations\versions\e4923ce4b117_.py" />
+    <Compile Include="utils\__init__.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="cache" />
+    <Folder Include="esg" />
+    <Folder Include="esg\models" />
+    <Folder Include="esg\models\charts\" />
+    <Folder Include="esg\models\exceptions\" />
+    <Folder Include="esg\resources" />
+    <Folder Include="esg\services" />
+    <Folder Include="esg\services\charts\" />
+    <Folder Include="esg\services\charts\charts_lib\" />
+    <Folder Include="esg\services\portfolios\" />
+    <Folder Include="migrations" />
+    <Folder Include="migrations\versions" />
+    <Folder Include="utils" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:62800/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>True</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

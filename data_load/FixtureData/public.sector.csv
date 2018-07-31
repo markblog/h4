@@ -1,0 +1,38 @@
+id,name,level,parent_id
+10,Energy,1,
+15,Materials,1,
+20,Industrials,1,
+25,Consumer Discretionary,1,
+30,Consumer Staples,1,
+35,Health Care,1,
+40,Financials,1,
+45,Information Technology,1,
+50,Telecommunication Services,1,
+55,Utilities,1,
+60,Real Estate,1,
+1010,Energy,2,10
+1510,Materials,2,15
+2010,Capital Goods,2,20
+2020,Commercial & Professional Services,2,20
+2030,Transportation,2,20
+2510,Automobiles & Components,2,25
+2520,Consumer Durables & Apparel,2,25
+2530,Consumer Services,2,25
+2540,Media,2,25
+2550,Retailing,2,25
+3010,Food & Staples Retailing,2,30
+3020,Food Beverage & Tobacco,2,30
+3030,Household & Personal Products,2,30
+3510,Health Care Equipment & Services,2,35
+3520,"Pharmaceuticals, Biotechnology & Life Sciences",2,35
+4010,Banks,2,40
+4020,Diversified Financials,2,40
+4030,Insurance,2,40
+4040,Real Estate,2,60
+4510,Software & Services,2,45
+4520,Technology Hardware & Equipment,2,45
+4530,Semiconductors & Semiconductor Equipment,2,45
+5010,Telecommunication Services,2,50
+5510,Utilities,2,55
+6010,Real Estate,2,60
+999911,Unclassified sector,1,

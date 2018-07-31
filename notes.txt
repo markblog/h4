@@ -1,0 +1,45 @@
+# Build environment for application
+
+install the lib we need with command pip install -r requirements.txt
+#========================== 
+How to migrate database
+
+1. python manger.py db init
+2. python manger.py db migrate
+3. python manger.py db upgrade
+#===========================
+
+Run the server
+python manger.py runserver
+
+#===========================
+
+demo url
+
+add a single esg model: open the index.html with chrome
+get model List: http://127.0.0.1:9001/api/esg
+get single model: http://127.0.0.1:9001/api/esg/<id>
+
+#=========================== 
+
+LAYOUT
+	- cache now we didn't use this in our application, may be later, so I put it here
+	- esg
+		- models models we used in esg app module
+		- resources restful api we write in this directory
+		- services the logic we need
+		- app_esg.py the other route may not suitable for restful
+	- log
+		- will generate log here, now we generated the slow-query.log for each query, setting is in config.py file
+	- utils
+		- nothing in this directory for now
+	- migrations
+		- database version
+
+	- application.py  general setting for this web application
+	- blueprint_register.py register the module here
+	- config.py
+	- ext.py add new models here and run the migrate database command to upgrade database
+	- manager.py main function to run this application
+
+	- index.html add single esg model to for test

@@ -1,0 +1,57 @@
+#  configuration file for portfolio charting
+#  ptport/
+#  this will eventually be moved into cassandra
+#  this is yaml but is read into dict to json equivalent
+#  we keep yaml because we can comment the file, suggest maintain yaml
+#  we can send yaml over http as 
+#     "Content-Type" : "text/x-yaml"
+#     
+#    with open('simrun_config.yaml', 'r') as config_file:
+#       try:
+#           config_simrun_str = config_file.read()
+#           config_simrun_dict = yaml.load(config_simrun_str)
+#       except yaml.YAMLError as e:
+#           raise e
+
+
+version: 0.1
+name: chart component 
+
+key_tags: # tags group for charting which relative with TagChartType in charting_rules file
+  buckets: -2
+  sector: 4
+  region: 5
+  all_regions_sectors: 11
+  contributors: 13
+  time: 6
+  all_securities: 12
+
+route:
+  contributors:
+    ContributionOfSecurity: esg.services.charts.charts_lib.contribution_of_security.ContributionOfSecurity
+  buckets:
+    SingleESGDistributionHistogram: esg.services.charts.charts_lib.single_channel_esg_distribution_histogram.SingleESGDistributionHistogram
+    MultipleESGDistributionHistogram: esg.services.charts.charts_lib.multiple_channel_esg_distribution_histogram.MultipleESGDistributionHistogram
+  sector:
+    DrilldownDistributionOfESGScoresBySectorOrRegion: esg.services.charts.charts_lib.drilldown_distribution_of_esg_scores.DrilldownDistributionOfESGScoresBySectorOrRegion
+    DistributionOfESGScoresBySectorOrRegion: esg.services.charts.charts_lib.distribution_of_esg_scores.DistributionOfESGScoresBySectorOrRegion
+  region:
+    DrilldownDistributionOfESGScoresBySectorOrRegion: esg.services.charts.charts_lib.drilldown_distribution_of_esg_scores.DrilldownDistributionOfESGScoresBySectorOrRegion
+    DistributionOfESGScoresBySectorOrRegion: esg.services.charts.charts_lib.distribution_of_esg_scores.DistributionOfESGScoresBySectorOrRegion
+  all_regions_sectors:
+    DrilldownDistributionOfESGScoresBySectorOrRegion: esg.services.charts.charts_lib.drilldown_distribution_of_esg_scores.DrilldownDistributionOfESGScoresBySectorOrRegion
+    DistributionOfESGScoresBySectorOrRegion: esg.services.charts.charts_lib.distribution_of_esg_scores.DistributionOfESGScoresBySectorOrRegion
+  time:
+    SingleChannelEsgScoreRegionSectorTimeSeries: esg.services.charts.charts_lib.single_channel_esg_score_Region_Sector_time_series.SingleChannelEsgScoreRegionSectorTimeSeries
+    MultipleRegionSectorEsgScoreTimeSeries: esg.services.charts.charts_lib.multiple_region_sector_esg_score_time_series.MultipleRegionSectorEsgScoreTimeSeries
+    SingleChannelEsgScoreTimeSeries: esg.services.charts.charts_lib.single_channel_esg_score_time_series.SingleChannelEsgScoreTimeSeries
+    MultipleChannelEsgScoreTimSeries: esg.services.charts.charts_lib.multiple_channle_esg_score_time_series.MultipleChannelEsgScoreTimSeries
+    SingleChannelESGPerformanceTimeSeries: esg.services.charts.charts_lib.single_esg_performance_over_time.SingleChannelESGPerformanceTimeSeries
+    PortfolioMetricTimeSeries: esg.services.charts.charts_lib.portfolio_metric_time_series.PortfolioMetricTimeSeries
+  all_securities:
+    SingleChannelESGScoreByWeight: esg.services.charts.charts_lib.single_esg_score_by_weight.SingleChannelESGScoreByWeight
+  else:
+    AllESGScoresForPortfolioOrSecurity: esg.services.charts.charts_lib.all_esg_scores_for_portfolio_or_security.AllESGScoresForPortfolioOrSecurity
+    GlobalViewOfPortfolio: esg.services.charts.charts_lib.global_view_of_portfolio.GlobalViewOfPortfolio
+    PortfolioMetricHistogram: esg.services.charts.charts_lib.portfolio_metric_histogram.PortfolioMetricHistogram
+    MarginalContributionToPortfolio: esg.services.charts.charts_lib.marginal_contribution_to_portfolio.MarginalContributionToPortfolio

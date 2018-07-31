@@ -1,0 +1,8 @@
+id,name,text_template,target
+1,ESG Score Change_company,{0} {1} score dropped by {2} in the last {3},c
+2,ESG Score Change_Portfolio,{0} {1} score dropped by {2} in the last {3},p
+3,ESG Score Change_country,{0} {1} score in {4} dropped by {2} in the last {3},p
+4,ESG Score Change_region,{0} {1} score in {4} dropped by {2} in the last {3},p
+5,ESG Score Change_industry,{0} {1} score in {4} dropped by {2} in the last {3},p
+6,ESG Score Change_sector,{0} {1} score in {4} dropped by {2} in the last {3},p
+7,ESG Score Change_sector_region,{0} {1} score in {4} dropped by {2} in the last {3},p

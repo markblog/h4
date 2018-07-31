@@ -1,0 +1,46 @@
+Metric_id,Metric_name,Provider
+1,UNGC,Arabesque UNGC
+2,Human Rights,Arabesque UNGC
+3,Labour Rights,Arabesque UNGC
+4,Environment,Arabesque UNGC
+5,Anti Corruption,Arabesque UNGC
+6,ESG,Arabesque ESG
+7,Environment Score,Arabesque ESG
+8,Social Score,Arabesque ESG
+9,Governance Score,Arabesque ESG
+10,Cumulative Return,GX
+11,Return Daily,GX
+12,Market Value,GX
+13,Number of Securities,GX
+14,Weight,GX
+15,Insight Human Capital,Insight TrueValue
+16,Insight Supply Chain,Insight TrueValue
+17,Insight Environment Water,Insight TrueValue
+18,Insight Environment Atmosphere,Insight TrueValue
+19,Insight Marketing Practices,Insight TrueValue
+20,Insight Sustainable Energy Use And Production,Insight TrueValue
+21,Insight Data Security And Privacy,Insight TrueValue
+22,Insight Environment Land,Insight TrueValue
+23,Insight Business Model,Insight TrueValue
+24,Insight Political Influence,Insight TrueValue
+25,Insight Anti-Competitive Behavior,Insight TrueValue
+26,Insight Corporate Governance,Insight TrueValue
+27,Insight Product Integrity And Innovation,Insight TrueValue
+28,Insight Social Impact,Insight TrueValue
+29,Insight TruValue,Insight TrueValue
+30,Pulse Human Capital,Pulse TrueValue
+31,Pulse Supply Chain,Pulse TrueValue
+32,Pulse Environment Water,Pulse TrueValue
+33,Pulse Environment Atmosphere,Pulse TrueValue
+34,Pulse Marketing Practices,Pulse TrueValue
+35,Pulse Sustainable Energy Use And Production,Pulse TrueValue
+36,Pulse Data Security And Privacy,Pulse TrueValue
+37,Pulse Environment Land,Pulse TrueValue
+38,Pulse Business Model,Pulse TrueValue
+39,Pulse Political Influence,Pulse TrueValue
+40,Pulse Anti-Competitive Behavior,Pulse TrueValue
+41,Pulse Corporate Governance,Pulse TrueValue
+42,Pulse Product Integrity And Innovation,Pulse TrueValue
+43,Pulse Social Impact,Pulse TrueValue
+44,Pulse TruValue,Pulse TrueValue
+45,Marginal Contribution,GX
